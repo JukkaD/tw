@@ -120,15 +120,18 @@
     <instance objName="oPlayer" x="64" y="352" name="inst_84905355" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSwG" x="224" y="384" name="inst_0BA7CE0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSwR" x="320" y="288" name="inst_19AD106B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBlock" x="160" y="96" name="inst_34ABC32D" locked="0" code="block_color=c_green&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="160" y="96" name="inst_34ABC32D" locked="0" code="image_index = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="128" y="320" name="inst_1A11C2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="128" y="256" name="inst_5A35E5E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBlock" x="128" y="224" name="inst_4F623A4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBlock" x="128" y="192" name="inst_83CF1C87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="128" y="224" name="inst_4F623A4A" locked="0" code="image_index = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="128" y="192" name="inst_83CF1C87" locked="0" code="image_index = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oText" x="416" y="64" name="inst_F8A4E5C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBlock" x="192" y="96" name="inst_C1F698B8" locked="0" code="block_color=c_green&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBlock" x="224" y="96" name="inst_B44F488A" locked="0" code="block_color=c_green&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBlock" x="128" y="288" name="inst_62F4277A" locked="0" code="block_color=c_red&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="192" y="96" name="inst_C1F698B8" locked="0" code="image_index = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="224" y="96" name="inst_B44F488A" locked="0" code="image_index = 1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="128" y="288" name="inst_62F4277A" locked="0" code="image_index = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="320" y="128" name="inst_25760FCF" locked="0" code="image_index = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="352" y="128" name="inst_1FD0E026" locked="0" code="image_index = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlock" x="384" y="128" name="inst_6C7175E6" locked="0" code="image_index = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

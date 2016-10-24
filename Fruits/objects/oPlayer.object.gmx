@@ -31,9 +31,9 @@ v_acc_default = 1
 h_speed_sign = 0;
 h_speed_default = 4;
 input_enabled = true;
-ball_color=c_red
+image_index=0
+image_speed=0
 dy = 0;
-ball_check=0
 </string>
           </argument>
         </arguments>
@@ -101,32 +101,7 @@ if (input_enabled and right)
 
 scr_collisions()
 scr_switchers()
-if (ball_color=c_red) ball_check=0
-if (ball_color=c_green) ball_check=1
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_set_colour(ball_color)
-draw_sprite_ext(sprite_index,0,x,y,1,1,0,ball_color,1)
+
 </string>
           </argument>
         </arguments>

@@ -28,7 +28,6 @@
             <string>draw_set_colour(c_black);
 draw_text(400, 50, "Press R to restart!"); 
 
-draw_text(400,100, string(oPlayer.ball_check))
 </string>
           </argument>
         </arguments>
